@@ -93,6 +93,7 @@ nav > a {
 
 .grigio > p{
     color: #9E9E9E;
+    'Montserrat', sans-serif
 }
 /* /Sezione Grigio */
 
@@ -188,5 +189,13 @@ nav > a {
 /* Div del footer */
 
 footer > div{
-    
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+p span:only-of-type{
+    color: red;
+    font-size: 17px;
 }
