@@ -17,26 +17,30 @@ body{
 }
 
 /* Debug */
-header{
-    /* background-color: #FFD978;
+.debug > header{
+    background-color: #FFD978;
     width: 100%;
-    height: 100px; */
+    height: 100px; 
 }
 
-main{
+.debug > main{
     
-    /* width: 100%; */
+     width: 100%; 
     
 }
 
-footer{
-    /* background-color: #D96B6B;
+.debug > footer{
+     background-color: #D96B6B;
     width: 100%;
-    height: 50px; */
+    height: 50px;
 }
 
 
-/* La Navbar */
+/* La Navbar e Logo */
+.logo{
+    width: 10%;
+}
+
 nav {
     margin: 40px 0;
 }
@@ -50,9 +54,9 @@ nav > a {
 
 
 
-/* Tabelle */
+/* Tabelle del Main */
 
-/* Tabella con il primo banner */
+/* Sezione Viola */
 .viola{
     /* background-color: #A162B8;*/
     /* height: 600px; */ 
@@ -75,8 +79,10 @@ nav > a {
 .tit > p {
     font-size: 15px;
 }
-/* /Tabella con il primo banner */
+/* /Sezione Viola */
 
+
+/* Sezione Grigio */
 .grigio{
     /* background-color: #B0CCBF;
     width: 100%;
@@ -88,30 +94,99 @@ nav > a {
 .grigio > p{
     color: #9E9E9E;
 }
+/* /Sezione Grigio */
 
+
+/* Sezione Blue e Giallo */
 .cont{
     /* width: 100%;
     background-color: #B0CCBF;
     height: 600px; */
 }
 
+
+/* Sezione Giallo */
 .giallo{
     /* background-color: #D4E516; */
-    width: 25%;
+    width: 20%;
 }
 
+.img{
+    background-image: url(./img/img-1.jpg);
+    
+}
+
+.img2{
+    background-image: url(./img/img-3.jpg);
+}
+
+/* /Sezione Giallo */
+
+
+/* Sezione Blu */
 .blu{
     /* background-color: #346BD1; */
-    width: 48%;
+    width: 53%;
     margin: 0 1%;
 }
 
+.img3{
+    background-image: url(./img/banner-2.jpg);
+}
+/* Sezione Blu */
+
+/* Vari Selettori e classi */
 .giallo, .blu{
     float: left;
     /* height: 100%; */
 }
 
-.logo{
-    width: 10%;
+.sfondo{
+    background-color: #0000003b;
+    height: 100%;
+    border-radius: 15px;
 }
 
+.Testo{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.Testo > p{
+    padding-top: 15px;
+    font-size: ;
+}
+
+.Testo p:last-of-type{
+    color: #9E9E9E;
+}
+
+.Testo p:first-of-type{
+    color: black;
+}
+
+.img, .img3{
+    background-size: 90%; 
+}
+
+
+.img, .img2, .img3{
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+/* /Vari Selettori e classi */
+
+/* /Tabelle */
+
+
+
+/* Div del footer */
+
+footer > div{
+    
+}
